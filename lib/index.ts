@@ -24,7 +24,7 @@ export {
   tadaOnEnterAnimation,
   wobbleAnimation,
   wobbleOnEnterAnimation
-} from './attention-seekers';
+} from 'angular-animations/lib/attention-seekers';
 export {
   IBounceInDownAnimationOptions,
   IBounceInLeftAnimationOptions,
@@ -40,7 +40,7 @@ export {
   bounceInRightOnEnterAnimation,
   bounceInUpAnimation,
   bounceInUpOnEnterAnimation
-} from './bouncing-entrances';
+} from 'angular-animations/lib/bouncing-entrances';
 export {
   IBounceOutDownAnimationOptions,
   IBounceOutLeftAnimationOptions,
@@ -56,7 +56,7 @@ export {
   bounceOutRightOnLeaveAnimation,
   bounceOutUpAnimation,
   bounceOutUpOnLeaveAnimation
-} from './bouncing-exits';
+} from 'angular-animations/lib/bouncing-exits';
 export {
   IFadeInDownAnimationOptions,
   IFadeInDownBigAnimationOptions,
@@ -84,7 +84,7 @@ export {
   fadeInUpBigAnimation,
   fadeInUpBigOnEnterAnimation,
   fadeInUpOnEnterAnimation
-} from './fading-entrances';
+} from 'angular-animations/lib/fading-entrances';
 export {
   IFadeOutDownAnimationOptions,
   IFadeOutDownBigAnimationOptions,
@@ -112,7 +112,7 @@ export {
   fadeOutUpBigAnimation,
   fadeOutUpBigOnLeaveAnimation,
   fadeOutUpOnLeaveAnimation
-} from './fading-exits';
+} from 'angular-animations/lib/fading-exits';
 export {
   IFlipInXAnimationOptions,
   IFlipInYAnimationOptions,
@@ -128,7 +128,7 @@ export {
   flipOutXOnLeaveAnimation,
   flipOutYAnimation,
   flipOutYOnLeaveAnimation
-} from './flippers';
+} from 'angular-animations/lib/flippers';
 export {
   ILightSpeedInAnimationOptions,
   ILightSpeedOutAnimationOptions,
@@ -136,7 +136,7 @@ export {
   lightSpeedInOnEnterAnimation,
   lightSpeedOutAnimation,
   lightSpeedOutOnLeaveAnimation
-} from './light-speed';
+} from 'angular-animations/lib/light-speed';
 export {
   IRotateInAnimationOptions,
   IRotateInDownLeftAnimationOptions,
@@ -153,7 +153,7 @@ export {
   rotateInUpLeftOnEnterAnimation,
   rotateInUpRightAnimation,
   rotateInUpRightOnEnterAnimation
-} from './rotating-entrances';
+} from 'angular-animations/lib/rotating-entrances';
 export {
   IRotateOutAnimationOptions,
   IRotateOutDownLeftAnimationOptions,
@@ -170,7 +170,7 @@ export {
   rotateOutUpLeftOnLeaveAnimation,
   rotateOutUpRightAnimation,
   rotateOutUpRightOnLeaveAnimation
-} from './rotating-exits';
+} from 'angular-animations/lib/rotating-exits';
 export {
   ISlideInDownAnimationOptions,
   ISlideInLeftAnimationOptions,
@@ -184,7 +184,7 @@ export {
   slideInRightOnEnterAnimation,
   slideInUpAnimation,
   slideInUpOnEnterAnimation
-} from './sliding-entrances';
+} from 'angular-animations/lib/sliding-entrances';
 export {
   ISlideOutDownAnimationOptions,
   ISlideOutLeftAnimationOptions,
@@ -198,7 +198,7 @@ export {
   slideOutRightOnLeaveAnimation,
   slideOutUpAnimation,
   slideOutUpOnLeaveAnimation
-} from './sliding-exits';
+} from 'angular-animations/lib/sliding-exits';
 export {
   zoomInAnimation,
   zoomInDownAnimation,
@@ -210,7 +210,7 @@ export {
   zoomInRightOnEnterAnimation,
   zoomInUpAnimation,
   zoomInUpOnEnterAnimation
-} from './zooming-entrances';
+} from 'angular-animations/lib/zooming-entrances';
 export {
   zoomOutAnimation,
   zoomOutDownAnimation,
@@ -222,7 +222,7 @@ export {
   zoomOutRightOnLeaveAnimation,
   zoomOutUpAnimation,
   zoomOutUpOnLeaveAnimation
-} from './zooming-exits';
+} from 'angular-animations/lib/zooming-exits';
 export {
   IRollInAnimationOptions,
   IRollOutAnimationOptions,
@@ -234,7 +234,7 @@ export {
   rollInOnEnterAnimation,
   rollOutAnimation,
   rollOutOnLeaveAnimation
-} from './specials';
+} from 'angular-animations/lib/specials';
 export {
   animateChildrenOnLeaveAnimation,
   collapseAnimation,
@@ -249,4 +249,4 @@ export {
   fadeOutCollapseLeftOnLeaveAnimation,
   hueRotateAnimation,
   rotateAnimation
-} from './other';
+} from 'angular-animations/lib/other';

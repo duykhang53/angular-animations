@@ -58,6 +58,7 @@
     "@angular/compiler-cli": "^10.1.0",
     "@angular/core": "^10.1.0",
     "angular-cli-ghpages": "^0.6.2",
+    "find-parent-dir": "^0.3.1",
     "husky": "^2.4.1",
     "ng-packagr": "^10.1.0",
     "np": "^6.5.0",
@@ -72,7 +73,23 @@
   },
   "ngPackage": {
     "lib": {
-      "entryFile": "lib/index.ts"
+      "entryFile": "lib/index.ts",
+      "umdModuleIds": {
+        "angular-animations/lib/bouncing-entrances": "angular-animations/lib/bouncing-entrances",
+        "angular-animations/lib/bouncing-exits": "angular-animations/lib/bouncing-exits",
+        "angular-animations/lib/fading-entrances": "angular-animations/lib/fading-entrances",
+        "angular-animations/lib/fading-exits": "angular-animations/lib/fading-exits",
+        "angular-animations/lib/flippers": "angular-animations/lib/flippers",
+        "angular-animations/lib/light-speed": "angular-animations/lib/light-speed",
+        "angular-animations/lib/rotating-entrances": "angular-animations/lib/rotating-entrances",
+        "angular-animations/lib/rotating-exits": "angular-animations/lib/rotating-exits",
+        "angular-animations/lib/sliding-entrances": "angular-animations/lib/sliding-entrances",
+        "angular-animations/lib/sliding-exits": "angular-animations/lib/sliding-exits",
+        "angular-animations/lib/zooming-entrances": "angular-animations/lib/zooming-entrances",
+        "angular-animations/lib/zooming-exits": "angular-animations/lib/zooming-exits",
+        "angular-animations/lib/specials": "angular-animations/lib/specials",
+        "angular-animations/lib/other": "angular-animations/lib/other"
+      }
     }
   }
 }
