@@ -10,6 +10,7 @@
     "demo-app": "cd demo-app && ng serve",
     "postinstall": "cd demo-app && npm install",
     "build": "ng-packagr -p package.json",
+    "build:watch": "ng-packagr -p package.json --watch",
     "prerelease": "npm run lint",
     "release": "np --no-publish",
     "postrelease": "npm run build && npm publish dist",
