@@ -1,7 +1,5 @@
 import { animate, animation, AnimationTriggerMetadata, AUTO_STYLE, keyframes, style, transition, trigger } from '@angular/animations';
-
-import { IAnimationOptions, IAttentionSeekerAnimationOptions } from '../common/interfaces';
-import { useAnimationIncludingChildren } from '../common/use-animation-including-children';
+import { IAnimationOptions, IAttentionSeekerAnimationOptions, useAnimationIncludingChildren } from 'angular-animations/lib/common';
 
 const wobble = () =>
   animation([

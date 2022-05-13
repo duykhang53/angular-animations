@@ -9,10 +9,7 @@ import {
   transition,
   trigger
 } from '@angular/animations';
-
-import { IAnimationOptions } from '../common/interfaces';
-import { useAnimationIncludingChildren } from '../common/use-animation-including-children';
-import { animateIncludingChildren } from '../common/animate-including-children';
+import { animateIncludingChildren, IAnimationOptions, useAnimationIncludingChildren } from 'angular-animations/lib/common';
 
 const DEFAULT_DURATION = 200;
 

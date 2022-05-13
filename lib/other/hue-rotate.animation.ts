@@ -11,8 +11,7 @@ import {
   trigger,
   useAnimation
 } from '@angular/animations';
-
-import { IAnimationOptions } from '../common/interfaces';
+import { IAnimationOptions } from 'angular-animations/lib/common';
 
 const hueRotate = () =>
   animation([

@@ -1,6 +1,5 @@
 import { animate, animateChild, AnimationTriggerMetadata, group, query, state, style, transition, trigger } from '@angular/animations';
-
-import { IAnimationOptions } from '../common/interfaces';
+import { IAnimationOptions } from 'angular-animations/lib/common';
 
 interface IRotateAnimationOptions extends IAnimationOptions {
   /**

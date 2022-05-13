@@ -1,7 +1,5 @@
 import { animate, animation, AnimationTriggerMetadata, keyframes, style, transition, trigger } from '@angular/animations';
-
-import { IAnimationOptions } from '../common/interfaces';
-import { useAnimationIncludingChildren } from '../common/use-animation-including-children';
+import { IAnimationOptions, useAnimationIncludingChildren } from 'angular-animations/lib/common';
 
 export interface IFlipOutXAnimationOptions extends IAnimationOptions {
   /**

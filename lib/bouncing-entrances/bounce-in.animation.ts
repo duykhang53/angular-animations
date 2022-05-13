@@ -1,7 +1,5 @@
 import { animate, animation, AnimationTriggerMetadata, group, keyframes, style, transition, trigger } from '@angular/animations';
-
-import { IAnimationOptions } from '../common/interfaces';
-import { useAnimationIncludingChildren } from '../common/use-animation-including-children';
+import { IAnimationOptions, useAnimationIncludingChildren } from 'angular-animations/lib/common';
 
 const bounceIn = () =>
   animation(
