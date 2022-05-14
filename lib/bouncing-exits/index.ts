@@ -1,5 +1,21 @@
-export { IBounceOutDownAnimationOptions, bounceOutDownAnimation, bounceOutDownOnLeaveAnimation } from './bounce-out-down.animation';
-export { IBounceOutLeftAnimationOptions, bounceOutLeftAnimation, bounceOutLeftOnLeaveAnimation } from './bounce-out-left.animation';
-export { IBounceOutRightAnimationOptions, bounceOutRightAnimation, bounceOutRightOnLeaveAnimation } from './bounce-out-right.animation';
-export { IBounceOutUpAnimationOptions, bounceOutUpAnimation, bounceOutUpOnLeaveAnimation } from './bounce-out-up.animation';
-export { bounceOutAnimation, bounceOutOnLeaveAnimation } from './bounce-out.animation';
+export {
+  IBounceOutDownAnimationOptions,
+  bounceOutDownAnimation,
+  bounceOutDownOnLeaveAnimation
+} from 'angular-animations/lib/bouncing-exits/bounce-out-down';
+export {
+  IBounceOutLeftAnimationOptions,
+  bounceOutLeftAnimation,
+  bounceOutLeftOnLeaveAnimation
+} from 'angular-animations/lib/bouncing-exits/bounce-out-left';
+export {
+  IBounceOutRightAnimationOptions,
+  bounceOutRightAnimation,
+  bounceOutRightOnLeaveAnimation
+} from 'angular-animations/lib/bouncing-exits/bounce-out-right';
+export {
+  IBounceOutUpAnimationOptions,
+  bounceOutUpAnimation,
+  bounceOutUpOnLeaveAnimation
+} from 'angular-animations/lib/bouncing-exits/bounce-out-up';
+export { bounceOutAnimation, bounceOutOnLeaveAnimation } from 'angular-animations/lib/bouncing-exits/bounce-out';

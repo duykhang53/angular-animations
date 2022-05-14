@@ -2,20 +2,24 @@ export {
   IRotateOutDownLeftAnimationOptions,
   rotateOutDownLeftAnimation,
   rotateOutDownLeftOnLeaveAnimation
-} from './rotate-out-down-left.animation';
+} from 'angular-animations/lib/rotating-exits/rotate-out-down-left';
 export {
   IRotateOutDownRightAnimationOptions,
   rotateOutDownRightAnimation,
   rotateOutDownRightOnLeaveAnimation
-} from './rotate-out-down-right.animation';
+} from 'angular-animations/lib/rotating-exits/rotate-out-down-right';
 export {
   IRotateOutUpLeftAnimationOptions,
   rotateOutUpLeftAnimation,
   rotateOutUpLeftOnLeaveAnimation
-} from './rotate-out-up-left.animation';
+} from 'angular-animations/lib/rotating-exits/rotate-out-up-left';
 export {
   IRotateOutUpRightAnimationOptions,
   rotateOutUpRightAnimation,
   rotateOutUpRightOnLeaveAnimation
-} from './rotate-out-up-right.animation';
-export { IRotateOutAnimationOptions, rotateOutAnimation, rotateOutOnLeaveAnimation } from './rotate-out.animation';
+} from 'angular-animations/lib/rotating-exits/rotate-out-up-right';
+export {
+  IRotateOutAnimationOptions,
+  rotateOutAnimation,
+  rotateOutOnLeaveAnimation
+} from 'angular-animations/lib/rotating-exits/rotate-out';

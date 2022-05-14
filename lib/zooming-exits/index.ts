@@ -1,5 +1,5 @@
-export { zoomOutDownAnimation, zoomOutDownOnLeaveAnimation } from './zoom-out-down.animation';
-export { zoomOutLeftAnimation, zoomOutLeftOnLeaveAnimation } from './zoom-out-left.animation';
-export { zoomOutRightAnimation, zoomOutRightOnLeaveAnimation } from './zoom-out-right.animation';
-export { zoomOutUpAnimation, zoomOutUpOnLeaveAnimation } from './zoom-out-up.animation';
-export { zoomOutAnimation, zoomOutOnLeaveAnimation } from './zoom-out.animation';
+export { zoomOutDownAnimation, zoomOutDownOnLeaveAnimation } from 'angular-animations/lib/zooming-exits/zoom-out-down';
+export { zoomOutLeftAnimation, zoomOutLeftOnLeaveAnimation } from 'angular-animations/lib/zooming-exits/zoom-out-left';
+export { zoomOutRightAnimation, zoomOutRightOnLeaveAnimation } from 'angular-animations/lib/zooming-exits/zoom-out-right';
+export { zoomOutUpAnimation, zoomOutUpOnLeaveAnimation } from 'angular-animations/lib/zooming-exits/zoom-out-up';
+export { zoomOutAnimation, zoomOutOnLeaveAnimation } from 'angular-animations/lib/zooming-exits/zoom-out';

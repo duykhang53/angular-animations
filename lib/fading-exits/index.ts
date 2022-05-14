@@ -1,13 +1,37 @@
-export { IFadeOutDownBigAnimationOptions, fadeOutDownBigAnimation, fadeOutDownBigOnLeaveAnimation } from './fade-out-down-big.animation';
-export { IFadeOutDownAnimationOptions, fadeOutDownAnimation, fadeOutDownOnLeaveAnimation } from './fade-out-down.animation';
-export { IFadeOutLeftBigAnimationOptions, fadeOutLeftBigAnimation, fadeOutLeftBigOnLeaveAnimation } from './fade-out-left-big.animation';
-export { IFadeOutLeftAnimationOptions, fadeOutLeftAnimation, fadeOutLeftOnLeaveAnimation } from './fade-out-left.animation';
+export {
+  IFadeOutDownBigAnimationOptions,
+  fadeOutDownBigAnimation,
+  fadeOutDownBigOnLeaveAnimation
+} from 'angular-animations/lib/fading-exits/fade-out-down-big';
+export {
+  IFadeOutDownAnimationOptions,
+  fadeOutDownAnimation,
+  fadeOutDownOnLeaveAnimation
+} from 'angular-animations/lib/fading-exits/fade-out-down';
+export {
+  IFadeOutLeftBigAnimationOptions,
+  fadeOutLeftBigAnimation,
+  fadeOutLeftBigOnLeaveAnimation
+} from 'angular-animations/lib/fading-exits/fade-out-left-big';
+export {
+  IFadeOutLeftAnimationOptions,
+  fadeOutLeftAnimation,
+  fadeOutLeftOnLeaveAnimation
+} from 'angular-animations/lib/fading-exits/fade-out-left';
 export {
   IFadeOutRightBigAnimationOptions,
   fadeOutRightBigAnimation,
   fadeOutRightBigOnLeaveAnimation
-} from './fade-out-right-big.animation';
-export { IFadeOutRightAnimationOptions, fadeOutRightAnimation, fadeOutRightOnLeaveAnimation } from './fade-out-right.animation';
-export { IFadeOutUpBigAnimationOptions, fadeOutUpBigAnimation, fadeOutUpBigOnLeaveAnimation } from './fade-out-up-big.animation';
-export { IFadeOutUpAnimationOptions, fadeOutUpAnimation, fadeOutUpOnLeaveAnimation } from './fade-out-up.animation';
-export { fadeOutAnimation, fadeOutOnLeaveAnimation } from './fade-out.animation';
+} from 'angular-animations/lib/fading-exits/fade-out-right-big';
+export {
+  IFadeOutRightAnimationOptions,
+  fadeOutRightAnimation,
+  fadeOutRightOnLeaveAnimation
+} from 'angular-animations/lib/fading-exits/fade-out-right';
+export {
+  IFadeOutUpBigAnimationOptions,
+  fadeOutUpBigAnimation,
+  fadeOutUpBigOnLeaveAnimation
+} from 'angular-animations/lib/fading-exits/fade-out-up-big';
+export { IFadeOutUpAnimationOptions, fadeOutUpAnimation, fadeOutUpOnLeaveAnimation } from 'angular-animations/lib/fading-exits/fade-out-up';
+export { fadeOutAnimation, fadeOutOnLeaveAnimation } from 'angular-animations/lib/fading-exits/fade-out';

@@ -1,6 +1,6 @@
 import { animate, animateChild, group, query } from '@angular/animations';
 
-import { IAnimationOptions } from '../common/interfaces';
+import { IAnimationOptions } from './interfaces';
 
 export function animateIncludingChildren(easing: 'ease-in' | 'ease-out', options?: IAnimationOptions) {
   return [

@@ -2,16 +2,24 @@ export {
   IRotateInDownLeftAnimationOptions,
   rotateInDownLeftAnimation,
   rotateInDownLeftOnEnterAnimation
-} from './rotate-in-down-left.animation';
+} from 'angular-animations/lib/rotating-entrances/rotate-in-down-left';
 export {
   IRotateInDownRightAnimationOptions,
   rotateInDownRightAnimation,
   rotateInDownRightOnEnterAnimation
-} from './rotate-in-down-right.animation';
-export { IRotateInUpLeftAnimationOptions, rotateInUpLeftAnimation, rotateInUpLeftOnEnterAnimation } from './rotate-in-up-left.animation';
+} from 'angular-animations/lib/rotating-entrances/rotate-in-down-right';
+export {
+  IRotateInUpLeftAnimationOptions,
+  rotateInUpLeftAnimation,
+  rotateInUpLeftOnEnterAnimation
+} from 'angular-animations/lib/rotating-entrances/rotate-in-up-left';
 export {
   IRotateInUpRightAnimationOptions,
   rotateInUpRightAnimation,
   rotateInUpRightOnEnterAnimation
-} from './rotate-in-up-right.animation';
-export { IRotateInAnimationOptions, rotateInAnimation, rotateInOnEnterAnimation } from './rotate-in.animation';
+} from 'angular-animations/lib/rotating-entrances/rotate-in-up-right';
+export {
+  IRotateInAnimationOptions,
+  rotateInAnimation,
+  rotateInOnEnterAnimation
+} from 'angular-animations/lib/rotating-entrances/rotate-in';

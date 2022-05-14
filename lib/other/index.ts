@@ -1,4 +1,4 @@
-export { animateChildrenOnLeaveAnimation } from './animate-children.animation';
+export { animateChildrenOnLeaveAnimation } from 'angular-animations/lib/other/animate-children';
 export {
   collapseAnimation,
   expandOnEnterAnimation,
@@ -10,6 +10,6 @@ export {
   expandRightOnEnterAnimation,
   fadeInExpandRightOnEnterAnimation,
   fadeOutCollapseLeftOnLeaveAnimation
-} from './collapse.animation';
-export { hueRotateAnimation } from './hue-rotate.animation';
-export { rotateAnimation } from './rotate.animation';
+} from 'angular-animations/lib/other/collapse';
+export { hueRotateAnimation } from 'angular-animations/lib/other/hue-rotate';
+export { rotateAnimation } from 'angular-animations/lib/other/rotate';
