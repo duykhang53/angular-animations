@@ -32,3 +32,9 @@ glob.sync('lib/*/*' + subAnimationSuffix)
     }, { spaces: 2 });
   });
 
+const ngPackagrGlob = require('ng-packagr/lib/utils/glob');
+const ngPackagrArray = require('ng-packagr/lib/utils/array');
+const orgGlob = ngPackagrGlob.globFiles;
+ngPackagrGlob.globFiles = (pattern, opts) => orgGlob(ngPackagrArray.toArray(pattern).map(p => p && p.replaceAll('\\', '/')), opts);
+
+require('ng-packagr/cli/main');
